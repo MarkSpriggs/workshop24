@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+p{
+  display: flexbox;
+  flex-direction: column;
+  border: solid white;
+  border-radius: 10px ;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+}
+p:hover{
+  padding: 20px;
+  background-color: #161616;
+}
+
+h2{
+  font-size: 50px ;
+}
+li{
+  font-family: monospace;
+  font-size: 40px;
+}
